@@ -1,0 +1,42 @@
+.stock-menu {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .stock-menu h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .stock-menu button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stock-menu button:hover {
+    background-color: #218838;
+  }
+  
+  .stock-menu button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5);
+  }
+  
+  .stock-menu .go-back-button {
+    background-color: #ffc107;
+    color: #212529;
+  }
+  
+  .stock-menu .go-back-button:hover {
+    background-color: #e0a800;
+  }
+  
